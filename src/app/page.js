@@ -1,9 +1,15 @@
-import Image from "next/image";
+import AboutSection from "@/component/AboutSection";
+import ExpertiseSection from "@/component/ExpertiseSection";
+import HeroSection from "@/component/Hero";
+import PortfolioSection from "@/component/PortfolioSection";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      Helow
-    </div>
+    <main>
+      <HeroSection />
+      <AboutSection/>
+      <ExpertiseSection/>
+      <PortfolioSection/>
+    </main>
   );
 }

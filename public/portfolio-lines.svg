@@ -1,0 +1,34 @@
+<svg width="100%" height="100%" viewBox="0 0 1920 1080"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="lineGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.10)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0)" />
+    </linearGradient>
+  </defs>
+
+  <!-- Generate 20 thin curved arcs -->
+  <g stroke="url(#lineGradient)" stroke-width="2" fill="none">
+    <path d="M -400 1100 Q 300 300 2200 900" />
+    <path d="M -400 1150 Q 330 330 2200 950" />
+    <path d="M -400 1200 Q 360 360 2200 1000" />
+    <path d="M -400 1250 Q 390 390 2200 1050" />
+    <path d="M -400 1300 Q 420 420 2200 1100" />
+    <path d="M -400 1350 Q 450 450 2200 1150" />
+    <path d="M -400 1400 Q 480 480 2200 1200" />
+    <path d="M -400 1450 Q 510 510 2200 1250" />
+    <path d="M -400 1500 Q 540 540 2200 1300" />
+    <path d="M -400 1550 Q 570 570 2200 1350" />
+    <path d="M -400 1600 Q 600 600 2200 1400" />
+    <path d="M -400 1650 Q 630 630 2200 1450" />
+    <path d="M -400 1700 Q 660 660 2200 1500" />
+    <path d="M -400 1750 Q 690 690 2200 1550" />
+    <path d="M -400 1800 Q 720 720 2200 1600" />
+    <path d="M -400 1850 Q 750 750 2200 1650" />
+    <path d="M -400 1900 Q 780 780 2200 1700" />
+    <path d="M -400 1950 Q 810 810 2200 1750" />
+    <path d="M -400 2000 Q 840 840 2200 1800" />
+  </g>
+
+</svg>
